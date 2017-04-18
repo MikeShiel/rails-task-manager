@@ -1,0 +1,10 @@
+<div class="container">
+<h1>Show Tasks</h1>
+<h2><%= @task.name %></h2>
+
+<% if @task.status %>
+  <p>done</p>
+<% else %>
+  <p>undone</p>
+<% end %>
+</div>
